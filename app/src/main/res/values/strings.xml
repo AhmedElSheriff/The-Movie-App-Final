@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">The Movies App</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="pref_sortby_key" translatable="false">sortby</string>
+    <string name="pref_sortby_default" translatable="false">popular</string>
+
+    <string name="underline">Trailers: <u>underline</u></string>
+    <string-array name="pref_sort_list_titles">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Favorite</item>
+    </string-array>
+
+
+    <string-array name="pref_sort_list_values">
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>favorite</item>
+    </string-array>
+    <string name="title_activity_details">Movie Details</string>
+    <string name="trailers_fragment_details">Trailers</string>
+    <string name="title_activity_test">test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="movieAppDrawer">
+        <item>Reviews</item>
+        <item>Trailers</item>
+        <item>Home</item>
+
+    </string-array>
+    <string name="title_activity_reviews">Movie Reviews</string>
+    <string name="title_activity_trailers">Movie Trailers</string>
+    <string name="title_activity_show_favorites">showFavorites</string>
+    <string name="author">Author: </string>
+    <string name="content">Content: </string>
+    <string name="show_reviews">Show Reviews</string>
+    <string name="add_to_fav">Add To Favorites</string>
+    <string name="favorited">Favorited</string>
+    <string name="added_to_fav">Added To Favorites</string>
+    <string name="removed_from_fav">Removed From Favorites</string>
+</resources>
