@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     android:orientation="horizontal"
 
-    tools:context="com.example.android.themovieapp.MainActivity">
+    tools:context=".Activities.MainActivity">
 
     <FrameLayout
         android:layout_width="0dp"
@@ -17,7 +17,7 @@
         android:layout_weight="0.4"
 
         />
-    <!--android:name="com.example.android.themovieapp.MainActivityFragment"-->
+    <!--android:name="com.example.android.themovieapp.Fragments.MainActivityFragment"-->
 
     <FrameLayout
         android:layout_width="0dp"
@@ -25,7 +25,7 @@
         android:id="@+id/details_container"
         android:layout_weight="0.6"
         />
-    <!--android:name="com.example.android.themovieapp.DetailsActivityFragment"-->
+    <!--android:name="com.example.android.themovieapp.Fragments.DetailsActivityFragment"-->
 
 
 </LinearLayout>

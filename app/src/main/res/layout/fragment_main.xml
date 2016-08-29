@@ -1,8 +1,8 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.themovieapp.MainActivityFragment"
+    tools:context=".Fragments.MainActivityFragment"
     android:orientation="horizontal"
     >
 
@@ -19,7 +19,22 @@
 
  </android.support.v7.widget.RecyclerView>
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/emptyMoviesText"
+    android:layout_gravity="center"
+    android:textSize="25dp"
+    android:textColor="@color/white"
+    android:layout_centerInParent="true"
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emptyMoviesImage"
+        android:layout_above="@+id/emptyMoviesText"
+        android:layout_centerHorizontal="true"
 
+        />
 
-
-</LinearLayout>
+</RelativeLayout>
